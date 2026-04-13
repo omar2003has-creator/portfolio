@@ -59,3 +59,4 @@ I am a **Computer Engineering graduate from Al-Balqa' Applied University (FET)**
 - **GitHub:** [omar2003has-creator](https://github.com/omar2003has-creator)
 - **LinkedIn:** [Omar Alakhras Profile](https://www.linkedin.com/in/omar-alakhras-743411317/)
 - **Email:** omar2003has@gmail.com
+- - **Phone:** 0781107240
