@@ -2,117 +2,60 @@
 layout: default
 ---
 
-# Your Name
+# Omar Alakhras
 
 ## About
 
-I am a recent graduate in [Computer Science / Electrical Engineering] from [University Name] in Jordan. I am building expertise in applied AI and ML systems through the AI.SPIRE program. I am most interested in [your areas of interest — e.g., NLP, computer vision, data engineering, deployment].
+I am a **Computer Engineering graduate from Al-Balqa' Applied University (FET)** in Jordan. Currently, I am a participant in the AI.SPIRE program, where I am sharpening my expertise in applied AI and ML systems. My professional focus is on backend development, data engineering, and building production-ready AI systems.
 
 ---
 
 ## Projects
 
-### Foundations
+### Foundations & Engineering
 
-**Git, Environment Setup & Collaboration**
+- **Engineering Prework** — Completed foundational engineering tasks and environment setup.
+  - Repo: [Engineering Prework](https://github.com/LevelUp-Applied-AI/engineering-omar2003has-creator)
+- **Git Workflows** — Mastered professional branching and PR workflows.
+  - Repo: [M1 Lab Repo](https://github.com/LevelUp-Applied-AI/m1-d1-git-workflows-omar2003has-creator)
 
-- **Environment & Git Workflows** — Set up a reproducible Python development environment and practiced branching, merging, and pull request workflows.
-  - Repo: [your-repo-link](#)
-  - Skills: Git, GitHub, VS Code, virtual environments, branch management
+### Data Analytics & SQL
 
-- **Team Collaboration Pipeline** — Collaborated on a shared repository using feature branches and code review, resolving merge conflicts and maintaining a clean commit history.
-  - Repo: [your-repo-link](#)
-  - Skills: Git collaboration, pull requests, code review, merge conflict resolution
+- **SQL Fundamentals & Analytics** — Mastered relational database design and advanced querying techniques.
+  - Repo: [SQL Fundamentals](https://github.com/LevelUp-Applied-AI/m3-d3-sql-fundamentals-omar2003has-creator)
+- **SQL Murder Mystery** — Investigated and solved a complex SQL-based data mystery.
+  - Repo: [SQL Murder Mystery Repo](https://github.com/omar2003has-creator/SQL-Murder-Mystery)
+- **Descriptive Analytics** — Performed deep-dive descriptive analytics on various datasets.
+  - Repo: [Descriptive Analytics Repo](https://github.com/LevelUp-Applied-AI/m4-d4-descriptive-analytics-omar2003has-creator)
 
-**Data Pipelines & PyTorch Fundamentals**
+### Data Pipelines & ML
 
-- **Data Pipeline** — Built an end-to-end data loading and preprocessing pipeline using pandas, with validation checks and reproducible outputs.
-  - Repo: [your-repo-link](#)
-  - Skills: Python, pandas, data cleaning, pipeline design
+- **ETL Data Pipeline** — Developed a complete ETL pipeline for transit data ridership.
+  - Repo: [M3 ETL Pipeline](https://github.com/LevelUp-Applied-AI/m3-i3-etl-pipeline-omar2003has-creator)
+- **Time Series Analytics** — Analyzed time-dependent data patterns and trends.
+  - Repo: [Time Series Repo](https://github.com/LevelUp-Applied-AI/m3-s2-time-series-analytics-omar2003has-creator)
+- **PyTorch Fundamentals** — Implemented neural network training loops and tensor operations.
+  - Repo: [M2 PyTorch Repo](https://github.com/LevelUp-Applied-AI/m2-i2-pytorch-omar2003has-creator)
 
-- **PyTorch Model** — Implemented a neural network training loop in PyTorch, including data loading, forward/backward passes, and evaluation metrics.
-  - Repo: [your-repo-link](#)
-  - Skills: PyTorch, tensor operations, training loops, model evaluation
+### Dashboards & Advanced Visualization
 
-**Relational Databases & SQL**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: SQL, PostgreSQL, data modeling
-
-**Data Visualization & Communication**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: Matplotlib, data storytelling
+- **KPI Dashboard** — Built a comprehensive KPI dashboard for monitoring key metrics.
+  - Repo: [KPI Dashboard Repo](https://github.com/LevelUp-Applied-AI/m4-i4-kpi-dashboard-omar2003has-creator)
+- **Shared Chart Gallery (Stretch)** — Developed advanced visualization components as part of the honors track.
+  - Repo: [Shared Chart Gallery](https://github.com/omar2003has-creator/m4-s2)
 
 ---
 
-### Machine Learning & NLP
+### Future Modules
 
-**Machine Learning Fundamentals**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: scikit-learn, model evaluation
-
-**Natural Language Processing**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: spaCy, text preprocessing, NLP pipelines
-
-**Deep Learning for NLP**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: PyTorch, Hugging Face, transformers
-
----
-
-### Retrieval & Knowledge Graphs
-
-**Retrieval-Augmented Generation**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: Weaviate, RAG pipelines, embeddings
-  - [Read more](projects/sample-project.md) *(optional -- use for projects complex enough to warrant a detail page)*
-
-**Knowledge Graphs**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: Triple stores, SPARQL, knowledge representation
-
----
-
-### Deployment
-
-**API Development & Containerization**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: FastAPI, Docker, deployment
-
-**Monitoring & Production Systems**
-
-- **Project Name** — One sentence describing what you built.
-  - Repo: [link](#)
-  - Skills: Monitoring, logging, production reliability
-
----
-
-### Capstone
-
-- **Project Name** — One sentence describing your capstone.
-  - Repo: [link](#)
-  - Skills: Full-stack AI/ML system
+- **Retrieval & Knowledge Graphs** — *Upcoming*
+- **Deployment & API Development** — *Upcoming*
+- **Capstone Project** — *Coming Soon*
 
 ---
 
 ## Contact
 
-- **GitHub:** [your-github-username](https://github.com/your-github-username)
-- **LinkedIn:** [your-linkedin-profile](https://linkedin.com/in/your-profile)
-- **Email:** your.email@example.com
+- **GitHub:** [omar2003has-creator](https://github.com/omar2003has-creator)
+- **LinkedIn:** [Omar Alakhras Profile](https://www.linkedin.com/in/omar-alakhras-743411317/)
+- **Email:** omar2003has@gmail.com
