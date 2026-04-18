@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Al-akhras — Applied AI & ML Systems</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        .proj-grid {
+            display: grid !important;
+            grid-template-columns: repeat(3, 1fr) !important;
+            gap: 2rem !important;
+        }
+
+        @media (max-width: 1024px) {
+            .proj-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .proj-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="loader">
+        <div class="ld-name">OA</div>
+        <div class="ld-bar"><div class="ld-fill"></div></div>
+        <div class="ld-text">Initializing portfolio...</div>
+        <div class="ld-pct" id="ldpct">0%</div>
+    </div>
+
+    <div id="cur"></div>
+    <div id="cur-ring"></div>
+    <canvas id="bgCanvas"></canvas>
+
+    <nav class="nav">
+        <a href="#home" class="nav-logo">OA</a>
+        <div class="nav-links">
+            <a href="#strengths">Expertise</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="https://github.com/omar2003has-creator" target="_blank" class="nav-btn">GitHub ↗</a>
+    </nav>
+
+    <section class="section" id="home">
+        <div class="glow-orb orb1"></div>
+        <div class="glow-orb orb2"></div>
+        <div class="grid-deco"></div>
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <div class="hero-greeting">Applied AI &amp; ML Systems · Jordan</div>
+                    <h1 class="hero-name">
+                        OMAR<br>
+                        <span class="line2">AL-AKHRAS</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Computer Engineering graduate building production-ready AI systems, robust data pipelines, and scalable ML infrastructure. Currently advancing in the <strong style="color:var(--cyan)">AI.SPIRE</strong> program.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-glow">View Projects</a>
+                        <a href="#contact" class="btn-ghost">Contact Me</a>
+                    </div>
+                    <div class="avail-pill">
+                        <span class="avail-dot"></span>
+                        Open to opportunities
+                    </div>
+                    <div class="hero-badges">
+                        <span class="hbadge">PyTorch</span>
+                        <span class="hbadge">SQL</span>
+                        <span class="hbadge">ETL Pipelines</span>
+                        <span class="hbadge">Deep Learning</span>
+                        <span class="hbadge">Backend Dev</span>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="terminal">
+                        <div class="term-bar">
+                            <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+                            <span class="term-title">omar@portfolio ~ profile.py</span>
+                        </div>
+                        <span class="term-line"><span class="comment"># Omar Al-akhras — System Profile</span></span>
+                        <span class="term-line">&nbsp;</span>
+                        <span class="term-line"><span class="prompt">$</span> python profile.py</span>
+                        <span class="term-line">&nbsp;</span>
+                        <span class="term-line">name    <span style="color:rgba(255,255,255,.2)">= </span><span class="val">"Omar Al-akhras"</span></span>
+                        <span class="term-line">role    <span style="color:rgba(255,255,255,.2)">= </span><span class="val">"ML &amp; Data Engineer"</span></span>
+                        <span class="term-line">program <span style="color:rgba(255,255,255,.2)">= </span><span class="val">"AI.SPIRE"</span></span>
+                        <span class="term-line">degree  <span style="color:rgba(255,255,255,.2)">= </span><span class="val">"B.Sc. Computer Engineering"</span></span>
+                        <span class="term-line">uni     <span style="color:rgba(255,255,255,.2)">= </span><span class="val">"Al-Balqa' Applied University"</span></span>
+                        <span class="term-line">&nbsp;</span>
+                        <span class="term-line">skills  <span style="color:rgba(255,255,255,.2)">= [</span></span>
+                        <span class="term-line">&nbsp;&nbsp;<span class="val">"PyTorch"</span>, <span class="val">"ETL"</span>, <span class="val">"SQL"</span>,</span>
+                        <span class="term-line">&nbsp;&nbsp;<span class="val">"Pandas"</span>, <span class="val">"Git"</span>, <span class="val">"REST APIs"</span></span>
+                        <span class="term-line"><span style="color:rgba(255,255,255,.2)">]</span></span>
+                        <span class="term-line">&nbsp;</span>
+                        <span class="term-line">status  <span style="color:rgba(255,255,255,.2)">= </span><span class="val">"available"</span> <span class="comment">✓</span></span>
+                        <span class="term-line"><span class="prompt">$</span> <span class="cursor-blink"></span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-strip reveal">
+                <div class="stat-c"><span class="stat-n" data-target="12">0</span><span class="stat-t">Projects Built</span></div>
+                <div class="stat-c"><span class="stat-n" data-target="3">0</span><span class="stat-t">Core Domains</span></div>
+                <div class="stat-c"><span class="stat-n">CE</span><span class="stat-t">Degree</span></div>
+                <div class="stat-c"><span class="stat-n">2026</span><span class="stat-t">Portfolio Edition</span></div>
+            </div>
+        </div>
+        <div class="hero-bg-text">AI</div>
+    </section>
+
+    <section class="section" id="strengths">
+        <div class="container">
+            <div class="s-label reveal">02 / Expertise</div>
+            <h2 class="s-title reveal">CORE<br>STRENGTHS</h2>
+            <p style="color:var(--muted);font-size:.9rem;max-width:500px;line-height:1.8;margin-bottom:3rem;" class="reveal">Bridging raw data, complex models, and scalable production environments.</p>
+            <div class="skills-grid">
+                <div class="sk-card reveal" data-n="01">
+                    <div class="sk-num">01 — Data Engineering</div>
+                    <h3 class="sk-title">DATA PIPELINES</h3>
+                    <p class="sk-desc">Designing relational databases, writing advanced SQL, and building robust ETL pipelines that handle complex, large-scale datasets reliably.</p>
+                    <div class="sk-tags"><span class="sk-tag">Python</span><span class="sk-tag">SQL</span><span class="sk-tag">ETL</span><span class="sk-tag">PostgreSQL</span></div>
+                </div>
+                <div class="sk-card reveal" data-n="02">
+                    <div class="sk-num">02 — Applied ML</div>
+                    <h3 class="sk-title">MACHINE LEARNING</h3>
+                    <p class="sk-desc">Training neural networks with PyTorch, analyzing time-dependent patterns, and preparing models for reliable production deployment.</p>
+                    <div class="sk-tags"><span class="sk-tag">PyTorch</span><span class="sk-tag">Deep Learning</span><span class="sk-tag">Time-Series</span><span class="sk-tag">Pandas</span></div>
+                </div>
+                <div class="sk-card reveal" data-n="03">
+                    <div class="sk-num">03 — Backend</div>
+                    <h3 class="sk-title">SYSTEMS & WORKFLOW</h3>
+                    <p class="sk-desc">Professional Git and PR workflows, environment config, REST API deployment, and full backend systems integration for ML pipelines.</p>
+                    <div class="sk-tags"><span class="sk-tag">Git</span><span class="sk-tag">APIs</span><span class="sk-tag">RAG</span><span class="sk-tag">Linux</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="glow-orb orb3"></div>
+        <div class="grid-deco"></div>
+        <div class="container">
+            <div class="s-label reveal">03 / Portfolio</div>
+            <h2 class="s-title reveal">SELECTED<br>PROJECTS</h2>
+            <p style="color:var(--muted);font-size:.9rem;max-width:500px;line-height:1.8;margin-bottom:3rem;" class="reveal">Hands-on work from the AI.SPIRE program across the full data science lifecycle.</p>
+            <div class="proj-grid">
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Database Analytics</span><a href="https://github.com/LevelUp-Applied-AI/m3-d3-sql-fundamentals-omar2003has-creator" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">SQL FUNDAMENTALS (M3-D3)</h3>
+                    <p class="p-desc">Comprehensive SQL query development for data extraction, aggregation, and filtering to generate business metrics from raw relational data.</p>
+                    <div class="p-chips"><span class="p-chip">SQL</span><span class="p-chip">Relational DBs</span><span class="p-chip">Queries</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Data Analysis</span><a href="https://github.com/LevelUp-Applied-AI/m4-d4-descriptive-analytics-omar2003has-creator" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">DESCRIPTIVE ANALYTICS (M4-D4)</h3>
+                    <p class="p-desc">Exploratory data analysis focused on understanding dataset distributions, central tendencies, and identifying outliers in raw data.</p>
+                    <div class="p-chips"><span class="p-chip">Pandas</span><span class="p-chip">EDA</span><span class="p-chip">Python</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Database Analytics</span><a href="https://github.com/LevelUp-Applied-AI/levelup-applied-ai-aispire-14005-m3-l3-sql-analytics-m3-l3" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">SQL ANALYTICS (AI.SPIRE L3)</h3>
+                    <p class="p-desc">Advanced relational database querying utilizing complex JOINs, subqueries, and window functions to extract layered insights from datasets.</p>
+                    <div class="p-chips"><span class="p-chip">Advanced SQL</span><span class="p-chip">Window Functions</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Data Analysis</span><a href="https://github.com/LevelUp-Applied-AI/levelup-applied-ai-aispire-14005-m4-l4-descriptive-analytics-m4-l4" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">APPLIED DESCRIPTIVE ANALYTICS</h3>
+                    <p class="p-desc">Deep-dive EDA and time-series analysis application, extracting actionable business insights from structured temporal datasets.</p>
+                    <div class="p-chips"><span class="p-chip">Time-Series</span><span class="p-chip">Data Cleansing</span><span class="p-chip">Pandas</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Predictive Modeling</span><a href="https://github.com/LevelUp-Applied-AI/m5-l5a-regression-eval-omar2003has-creator-1" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">REGRESSION EVALUATION v1</h3>
+                    <p class="p-desc">Training, tuning, and evaluating regression algorithms to accurately predict continuous variables using RMSE and MAE metrics.</p>
+                    <div class="p-chips"><span class="p-chip">Regression</span><span class="p-chip">Model Eval</span><span class="p-chip">Scikit-Learn</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Visualization</span><a href="https://github.com/LevelUp-Applied-AI/m4-i4-kpi-dashboard-omar2003has-creator" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">KPI DASHBOARD (M4-I4)</h3>
+                    <p class="p-desc">Built a comprehensive dashboard for monitoring key performance metrics, featuring advanced visualizations to present complex data clearly.</p>
+                    <div class="p-chips"><span class="p-chip">Dashboards</span><span class="p-chip">Data Viz</span><span class="p-chip">KPIs</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Predictive Modeling</span><a href="https://github.com/LevelUp-Applied-AI/levelup-applied-ai-aispire-14005-m5-l5a-regression-eval-m5-l5a" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">APPLIED REGRESSION EVALUATION</h3>
+                    <p class="p-desc">Advanced regression modeling within the AI.SPIRE framework, focusing on robust statistical validation, R-squared optimization, and real-world applicability.</p>
+                    <div class="p-chips"><span class="p-chip">Predictive ML</span><span class="p-chip">Statistics</span><span class="p-chip">Python</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Data Analysis</span><a href="https://github.com/LevelUp-Applied-AI/m4-l4-descriptive-analytics-omar2003has-creator-1" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">DESCRIPTIVE ANALYTICS v2</h3>
+                    <p class="p-desc">Extended implementation of descriptive analytics techniques, handling unstructured text variables and categorizing complex data attributes.</p>
+                    <div class="p-chips"><span class="p-chip">EDA</span><span class="p-chip">Pandas</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Data Engineering</span><a href="https://github.com/omar2003has-creator/m4-s2" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">DATA ANALYTICS SPRINT (M4-S2)</h3>
+                    <p class="p-desc">High-intensity sprint focused on cleaning messy datasets, performing complex transformations, and solving a targeted business case.</p>
+                    <div class="p-chips"><span class="p-chip">Sprint</span><span class="p-chip">Data Cleaning</span><span class="p-chip">Analytics</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">MLOps & Pipelines</span><a href="https://github.com/LevelUp-Applied-AI/m5-i5a-ml-pipeline-omar2003has-creator" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">END-TO-END ML PIPELINE</h3>
+                    <p class="p-desc">Architected a robust machine learning pipeline automating the entire workflow: data preprocessing, feature engineering, model training, evaluation, and structured inference handling.</p>
+                    <div class="p-chips"><span class="p-chip">ML Pipelines</span><span class="p-chip">Scikit-Learn</span><span class="p-chip">Automation</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Machine Learning</span><a href="https://github.com/LevelUp-Applied-AI/m5-d5a-classification-basics-omar2003has-creator" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">CLASSIFICATION BASICS</h3>
+                    <p class="p-desc">Developed classification algorithms to categorize discrete datasets. Utilized confusion matrices, precision, and recall for robust performance scoring.</p>
+                    <div class="p-chips"><span class="p-chip">Classification</span><span class="p-chip">Metrics</span><span class="p-chip">ML</span></div>
+                </article>
+
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">MLOps & Pipelines</span><a href="https://github.com/LevelUp-Applied-AI/levelup-applied-ai-aispire-14005-m5-i5a-ml-pipeline-m5-i5a-2" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">APPLIED ML PIPELINE (AI.SPIRE)</h3>
+                    <p class="p-desc">Advanced pipeline integration module focused on transitioning machine learning models from local experiments to structured, deployable backend workflows.</p>
+                    <div class="p-chips"><span class="p-chip">Systems Design</span><span class="p-chip">Pipeline Architecture</span></div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="grid-deco"></div>
+        <div class="container">
+            <div class="s-label reveal">04 / About</div>
+            <h2 class="s-title reveal">THE<br>ENGINEER</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I hold a degree in <strong>Computer Engineering from Al-Balqa' Applied University</strong> (FET), which gave me deep grounding in hardware-software integration and complex systems thinking.</p>
+                    <div class="quote-block"><p>"Driven by the process of building systems that actually work — cleaning messy data, training reliable models, and deploying them efficiently into the real world."</p></div>
+                    <p>Currently deep in the <strong>AI.SPIRE program</strong>, I'm closing the gap between academic theory and production reality. My focus spans data engineering, backend workflows, and practical ML — the high-leverage work that makes AI genuinely useful.</p>
+                    <div class="tech-pills">
+                        <span class="tp">Python</span><span class="tp">PyTorch</span><span class="tp">SQL</span>
+                        <span class="tp">Pandas</span><span class="tp">ETL</span><span class="tp">Git</span>
+                        <span class="tp">REST APIs</span><span class="tp">Linux</span><span class="tp">Deep Learning</span>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <div class="tl">
+                        <div class="tl-item"><span class="tl-yr">NOW</span><div class="tl-c"><strong>AI.SPIRE Program</strong><span>Applied AI & ML track — Data Engineering, Deep Learning, API deployment</span></div></div>
+                        <div class="tl-item"><span class="tl-yr">2024</span><div class="tl-c"><strong>B.Sc. Computer Engineering</strong><span>Al-Balqa' Applied University, FET — Jordan</span></div></div>
+                        <div class="tl-item"><span class="tl-yr">Focus</span><div class="tl-c"><strong>ML Systems & Data Engineering</strong><span>ETL pipelines, neural networks, KPIs, backend deployment</span></div></div>
+                        <div class="tl-item"><span class="tl-yr">Open</span><div class="tl-c"><strong>Data · ML · Backend Engineer</strong><span>Full-time · Remote or on-site · Jordan & MENA</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="s-label reveal">05 / Contact</div>
+            <h2 class="s-title reveal">LET'S BUILD<br>SOMETHING.</h2>
+            <p style="color:var(--muted);font-size:.9rem;max-width:400px;line-height:1.8;margin:1rem 0 3rem;" class="reveal">Available for roles in Data Engineering, Backend Development, and ML Systems.</p>
+            <div class="contact-grid reveal">
+                <a class="cc" href="https://github.com/omar2003has-creator" target="_blank"><div><div class="cc-label">GitHub</div><div class="cc-val">omar2003has-creator</div></div><div class="cc-arr">↗</div></a>
+                <a class="cc" href="https://www.linkedin.com/in/omar-alakhras-743411317/" target="_blank"><div><div class="cc-label">LinkedIn</div><div class="cc-val">omar-alakhras</div></div><div class="cc-arr">↗</div></a>
+                <a class="cc" href="mailto:omar2003has@gmail.com"><div><div class="cc-label">Email</div><div class="cc-val">omar2003has@gmail.com</div></div><div class="cc-arr">↗</div></a>
+                <a class="cc" href="tel:0781107240"><div><div class="cc-label">Phone</div><div class="cc-val">+962 78 110 7240</div></div><div class="cc-arr">↗</div></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Omar Al-akhras — Applied AI & ML Systems · Jordan</p>
+        <div class="footer-mark">OA</div>
+    </footer>
+
+    <script src="Script/script.js"></script>
+</body>
+</html>
