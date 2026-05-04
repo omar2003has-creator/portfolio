@@ -366,7 +366,7 @@
             <p style="color:var(--muted);font-size:.9rem;max-width:400px;line-height:1.8;margin:1rem 0 3rem;" class="reveal">Available for roles in Data Engineering, Backend Development, and ML Systems.</p>
             <div class="contact-grid reveal">
                 <a class="cc" href="https://github.com/omar2003has-creator" target="_blank"><div><div class="cc-label">GitHub</div><div class="cc-val">omar2003has-creator</div></div><div class="cc-arr">↗</div></a>
-                <a class="cc" href="https://www.linkedin.com/in/omar-alakhras-743411317/" target="_blank"><div><div class="cc-label">LinkedIn</div><div class="cc-val">omar-alakhras</div></div><div class="cc-arr">↗</div></a>
+                               <a class="cc" href="https://www.linkedin.com/in/omar-alakhras-743411317/" target="_blank"><div><div class="cc-label">LinkedIn</div><div class="cc-val">omar-alakhras</div></div><div class="cc-arr">↗</div></a>
                 <a class="cc" href="mailto:omar2003has@gmail.com"><div><div class="cc-label">Email</div><div class="cc-val">omar2003has@gmail.com</div></div><div class="cc-arr">↗</div></a>
                 <a class="cc" href="tel:0781107240"><div><div class="cc-label">Phone</div><div class="cc-val">+962 78 110 7240</div></div><div class="cc-arr">↗</div></a>
             </div>
@@ -374,4 +374,37 @@
     </section>
 
     <footer class="footer">
-        <p>© 2026 Omar Al
+        <p>© 2026 Omar Al-akhras — Applied AI & ML Systems · Jordan</p>
+        <div class="footer-mark">OA</div>
+    </footer>
+
+    <script src="Script/script.js"></script>
+    
+    <script>
+        (function() {
+            var loader = document.getElementById('loader');
+            var pctEl = document.getElementById('ldpct');
+            
+            if (loader && pctEl) {
+                var percent = 0;
+                var interval = setInterval(function() {
+                    percent += Math.floor(Math.random() * 15) + 5;
+                    if (percent >= 100) {
+                        percent = 100;
+                        clearInterval(interval);
+                    }
+                    pctEl.textContent = percent + '%';
+                    if (percent === 100) {
+                        setTimeout(function() {
+                            loader.style.opacity = '0';
+                            loader.style.visibility = 'hidden';
+                            loader.style.display = 'none';
+                        }, 300);
+                    }
+                }, 60);
+            }
+        })();
+    </script>
+
+</body>
+</html>
