@@ -1,14 +1,3 @@
-/* LOADER - MODIFIED FOR FASTER LOADING */
-let pct = 0;
-const ldpct = document.getElementById('ldpct');
-const ldiv = setInterval(() => {
-    pct += Math.random() * 20;
-    if (pct >= 100) { pct = 100; clearInterval(ldiv); }
-    ldpct.textContent = Math.floor(pct) + '%';
-}, 50);
-window.addEventListener('load', () => {
-    setTimeout(() => document.getElementById('loader').classList.add('gone'), 600);
-});
 
 /* CURSOR */
 const cur = document.getElementById('cur');
