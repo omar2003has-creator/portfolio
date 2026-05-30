@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="stats-strip reveal">
-                <div class="stat-c"><span class="stat-n" data-target="27">0</span><span class="stat-t">Projects Built</span></div>
+                <div class="stat-c"><span class="stat-n" data-target="36">0</span><span class="stat-t">Projects Built</span></div>
                 <div class="stat-c"><span class="stat-n" data-target="3">0</span><span class="stat-t">Core Domains</span></div>
                 <div class="stat-c"><span class="stat-n">CE</span><span class="stat-t">Degree</span></div>
                 <div class="stat-c"><span class="stat-n">2026</span><span class="stat-t">Portfolio Edition</span></div>
@@ -336,7 +336,60 @@
                     <p class="p-desc">Visualizes high-dimensional word (GloVe) and document (DistilBERT) embeddings in 2D space using t-SNE and PCA. Analyzes semantic clustering across 5 categories (Countries, Sports, Tech, Emotions, Business).</p>
                     <div class="p-chips"><span class="p-chip">GloVe</span><span class="p-chip">DistilBERT</span><span class="p-chip">t-SNE</span><span class="p-chip">PCA</span><span class="p-chip">Embeddings</span><span class="p-chip">Transformers</span></div>
                 </article>
-
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Semantic Search</span><a href="https://github.com/LevelUp-Applied-AI/m6-i6b-semantic-pipeline-omar2003has-creator/tree/integration-6b-semantic-pipeline" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">SEMANTIC PIPELINE (M6-I6B)</h3>
+                    <p class="p-desc">End-to-end NLP pipeline combining NER (spaCy) with embedding-based semantic search (DistilBERT). Enriches climate article search results with extracted entities for deeper insights.</p>
+                    <div class="p-chips"><span class="p-chip">spaCy</span><span class="p-chip">DistilBERT</span><span class="p-chip">Semantic Search</span><span class="p-chip">Cosine Similarity</span><span class="p-chip">Transformers</span></div>
+                </article>
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Multilingual NLP</span><a href="https://github.com/LevelUp-Applied-AI/m6-l6a-ner-pipeline-omar2003has-creator/pull/4" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">CROSS-LINGUAL EMBEDDINGS (M6-S2_L6A)</h3>
+                    <p class="p-desc">Cross-lingual embedding comparison between English and Arabic climate texts using BERT multilingual. Computes cosine similarity and visualizes semantic alignment in a shared vector space via heatmaps.</p>
+                    <div class="p-chips"><span class="p-chip">BERT Multilingual</span><span class="p-chip">Cross-Lingual</span><span class="p-chip">Sentence Embeddings</span><span class="p-chip">Cosine Similarity</span><span class="p-chip">Transformers</span><span class="p-chip">Heatmap Visualization</span></div>
+                </article>
+                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">LLM Fine-Tuning</span><a href="https://github.com/LevelUp-Applied-AI/m7-d7a-finetune-prep-omar2003has-creator-1/pull/1" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">FINE-TUNING PREP (M7-D7A)</h3>
+                    <p class="p-desc">Prepares dataset for sentiment analysis fine-tuning. Implements train/test split, tokenization (AutoTokenizer), training arguments configuration, and evaluation metrics (accuracy + macro F1) using Hugging Face.</p>
+                    <div class="p-chips"><span class="p-chip">Hugging Face</span><span class="p-chip">Transformers</span><span class="p-chip">Tokenization</span><span class="p-chip">TrainingArguments</span><span class="p-chip">F1 Score</span><span class="p-chip">Datasets</span></div>
+                </article>
+                                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">LLM Fine-Tuning</span><a href="https://github.com/LevelUp-Applied-AI/m7-l7a-finetune-sentiment-omar2003has-creator/pull/1" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">SENTIMENT FINETUNING (M7-L7A)</h3>
+                    <p class="p-desc">Complete fine-tuning pipeline for DistilBERT on app review sentiment (3 classes: negative, neutral, positive). Includes dataset prep, tokenization, training, evaluation (accuracy + macro F1), and model export.</p>
+                    <div class="p-chips"><span class="p-chip">DistilBERT</span><span class="p-chip">Hugging Face</span><span class="p-chip">Fine-Tuning</span><span class="p-chip">Transformers</span><span class="p-chip">Sentiment Analysis</span><span class="p-chip">Trainer API</span></div>
+                </article>
+                                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">LLM Evaluation</span><a href="https://github.com/LevelUp-Applied-AI/m7-i7a-domain-shift-omar2003has-creator/pull/1" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">DOMAIN SHIFT ANALYSIS (M7-I7A)</h3>
+                    <p class="p-desc">Applies a sentiment model (fine-tuned on app reviews) to tech news articles to analyze domain shift. Evaluates prediction distributions, confidence scores, and provides engineering judgment on production readiness.</p>
+                    <div class="p-chips"><span class="p-chip">Domain Shift</span><span class="p-chip">Sentiment Analysis</span><span class="p-chip">Hugging Face</span><span class="p-chip">DistilBERT</span><span class="p-chip">Model Evaluation</span><span class="p-chip">Transformers</span></div>
+                </article>
+                                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Hugging Face</span><a href="https://github.com/LevelUp-Applied-AI/m7-d7b-pretrained-pipelines-omar2003has-creator/pull/1" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">PRETRAINED PIPELINES (M7-D7B)</h3>
+                    <p class="p-desc">Implements QA pipeline, summarization pipeline, SQuAD-style normalization, Exact-Match, Token-F1, and ROUGE metrics. Core NLP evaluation toolkit for pre-trained models.</p>
+                    <div class="p-chips"><span class="p-chip">Hugging Face</span><span class="p-chip">Question Answering</span><span class="p-chip">Summarization</span><span class="p-chip">ROUGE</span><span class="p-chip">Token-F1</span><span class="p-chip">Exact Match</span></div>
+                </article>
+                                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Hugging Face</span><a href="https://github.com/LevelUp-Applied-AI/m7-l7b-pretrained-qa-omar2003has-creator/pull/1" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">QA EVALUATION PIPELINE (M7-L7B)</h3>
+                    <p class="p-desc">End-to-end evaluation pipeline for pre-trained QA model (DistilBERT-SQuAD) on tech/entertainment news. Computes Exact Match (EM) and Token-F1 metrics, outputs predictions CSV and metrics JSON.</p>
+                    <div class="p-chips"><span class="p-chip">Hugging Face</span><span class="p-chip">Question Answering</span><span class="p-chip">Model Evaluation</span><span class="p-chip">Exact Match</span><span class="p-chip">Token-F1</span><span class="p-chip">DistilBERT</span></div>
+                </article>
+                                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Summarization</span><a href="https://github.com/LevelUp-Applied-AI/m7-i7b-summary-eval-omar2003has-creator/pull/1" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">SUMMARY EVALUATION (M7-I7B)</h3>
+                    <p class="p-desc">End-to-end summarization evaluation pipeline using DistilBART. Computes ROUGE-1, ROUGE-2, and ROUGE-L F1 scores on tech news articles against reference summaries.</p>
+                    <div class="p-chips"><span class="p-chip">Hugging Face</span><span class="p-chip">Summarization</span><span class="p-chip">ROUGE</span><span class="p-chip">DistilBART</span><span class="p-chip">Model Evaluation</span></div>
+                </article>
+                                <article class="pc reveal">
+                    <div class="p-meta"><span class="p-type">Honors / RAG</span><a href="https://github.com/LevelUp-Applied-AI/m7-i7b-summary-eval-omar2003has-creator/pull/2" target="_blank" class="p-link">View Repo</a></div>
+                    <h3 class="p-title">SUMMARIZE-THEN-QA (M7-S_I7B)</h3>
+                    <p class="p-desc">Honors stretch comparing two QA strategies: (A) full-article chunking vs (B) summarize-then-QA. Quantifies information loss from summarization (29.5% F1 vs 87.9%) and provides production recommendations.</p>
+                    <div class="p-chips"><span class="p-chip">Question Answering</span><span class="p-chip">Summarization</span><span class="p-chip">RAG</span><span class="p-chip">Model Comparison</span><span class="p-chip">DistilBERT</span><span class="p-chip">DistilBART</span></div>
+                </article>
             </div>
         </div>
     </section>
